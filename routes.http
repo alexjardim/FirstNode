@@ -1,0 +1,26 @@
+POST http://localhost:4000/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o video node",
+    "duration": 240
+}
+
+###
+
+GET http://localhost:4000/videos
+
+###
+PUT http://localhost:4000/videos/
+Content-Type: application/json
+
+{
+    "title": "Video 01",
+    "description": "Esse é o video 01",
+    "duration": 240
+}
+
+###
+
+DELETE http://localhost:4000/videos/
